@@ -1,0 +1,16 @@
+.netflix-logo{
+    position:relative;
+    top: 0px;
+    height: 88px;
+    background:none;
+
+}
+
+.profile-logo{
+    height: 50px;
+    border-radius: 7px;
+    position:fixed;
+    right: 30px;
+    top: 14px;
+    cursor: pointer;
+}

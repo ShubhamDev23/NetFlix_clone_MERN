@@ -1,0 +1,58 @@
+.profile-avatar{
+    height: 100px;
+}
+.profile{
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+.profile_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.profile_info{
+    display: flex;
+}
+.profile_details{
+    flex: 1;
+    margin-left: 25px;
+}.profile_details>h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    scroll-padding-left: 20px;
+}
+.signout{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plans-info{
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.plans-info:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+button{
+    height: 20px;
+}

@@ -1,0 +1,63 @@
+
+.footer-grid {
+    display: flex;
+    margin-left: 150px;
+    gap: 5rem;
+    font-size: 15px;
+}
+
+.footer-logos {
+    margin-left: 186px;
+}
+
+.logo, .fb, .twit, .yt {
+    height: 20px;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    bottom: 20px;
+}
+
+.service {
+    margin-left: 175px;
+    padding: 10px;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-left: 185px;
+}
+
+@media (max-width: 768px) {
+    .footer-grid {
+        flex-direction: column;
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .footer-logos, .service, .copyright {
+        margin-left: 0; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo, .fb, .twit, .yt {
+        height: 16px; 
+    }
+
+    .copyright {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-grid {
+        gap: 1rem; 
+    }
+}

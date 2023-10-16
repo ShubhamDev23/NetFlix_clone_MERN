@@ -1,0 +1,19 @@
+.app{
+  background-color: rgba(0, 0, 0, 0.946);
+    height: 100vh; 
+}
+.flex {
+    display: flex;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  .j-between {
+    justify-content: space-between;
+  }
+  
+  .j-center {
+    justify-content: center;
+  }
